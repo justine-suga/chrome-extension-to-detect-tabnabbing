@@ -1,0 +1,12 @@
+.screenshot-box img {
+  width: 100%; /* Adjust to fit the container */
+  max-width: 200px; /* Set a reasonable maximum size */
+  height: auto; /* Maintain aspect ratio */
+  border: 1px solid #ccc; /* Optional: Add a border */
+  margin: 5px 0; /* Add some spacing */
+}
+
+.screenshot-box p {
+  text-align: center;
+  color: #666;
+}

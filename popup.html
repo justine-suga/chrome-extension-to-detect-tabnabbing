@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Screenshot Viewer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 10px;
+      text-align: center;
+    }
+    .box-container {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+    .box {
+      border: 2px dashed gray;
+      width: 150px;
+      height: 150px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      color: gray;
+    }
+  </style>
+</head>
+<body>
+  <h1>Screenshot Viewer</h1>
+  <div class="box-container">
+    <div id="initialScreenshot" class="box">Initial Screenshot</div>
+    <div id="savedScreenshot" class="box">Saved Screenshot</div>
+  </div>
+  <div id="differenceImage" class="box">Comparison Image</div>
+  <button id="refreshButton" onclick="loadScreenshots()">Refresh Screenshots</button>
+  
+</body>
+<script src="popup.js"></script>
+</html>
