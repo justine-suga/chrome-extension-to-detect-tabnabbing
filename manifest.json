@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Tabnabbing Detector",
+  "name": "JRM Tabnabbing Detection",
   "version": "1.0",
   "description": "Detects tabnabbing attacks and alerts the user of changes to a previously open tab.",
   "permissions": ["tabs", "scripting", "storage", "notifications"],

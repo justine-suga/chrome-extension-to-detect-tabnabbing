@@ -29,5 +29,12 @@ function loadScreenshots() {
   });
 }
 
+
+// Icon change handler
+function resetPage() {
+  chrome.action.setIcon({path: "images/default_icon.png"});
+  loadScreenshots();
+}
+
 // Initial load
 document.addEventListener("DOMContentLoaded", loadScreenshots);
